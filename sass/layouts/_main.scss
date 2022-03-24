@@ -1,0 +1,27 @@
+// .img-container{
+//     width: 80%;
+// }
+.main{
+width: 80%;
+// max-width: 60rem;
+margin: 0 auto;
+
+
+.img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5625rem;
+    margin: 2rem 0;
+
+    @media screen and (min-width:51.25em){
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr;
+    }
+
+    .img{
+        width: 100%;
+        max-width: 15.9375rem;
+        border-radius: .5rem;
+    }
+}
+}

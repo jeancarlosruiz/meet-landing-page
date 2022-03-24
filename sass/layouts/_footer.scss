@@ -1,0 +1,15 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(/assets/mobile/image-footer.jpg);
+    background-color: var(--clr__btn-1);
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 5.75rem 1.5rem 4.5rem;
+
+    .footer__paragrapah{
+        width: 80%;
+    }
+}

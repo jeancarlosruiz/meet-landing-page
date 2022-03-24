@@ -1,0 +1,77 @@
+// Font Family
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+html {
+  font-size: 100%;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.intro__title {
+  width: 80%;
+  font-size: var(--fs__h1-mobile);
+  font-weight: 900;
+  line-height: 2.75rem;
+  color: var(--clr__text-1);
+  text-align: center;
+  margin: 0 auto;
+}
+
+.intro__paragraph {
+  font-size: var(--fs__p-mobile);
+  font-weight: 500;
+  line-height: 1.625rem;
+  color: var(--clr__text-2);
+  text-align: center;
+}
+
+.main__concept-p {
+  font-size: var(--fs__span);
+  font-weight: 700;
+  letter-spacing: 0.25rem;
+  color: var(--clr__btn-1);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.main__concept-title {
+  font-size: var(--fs__h2-mobile);
+  font-weight: 900;
+  line-height: 2.25rem;
+  color: var(--clr__text-1);
+  text-align: center;
+  margin: 1.5rem 0 2rem;
+}
+
+.main__concept-paragraph {
+  font-size: var(--fs__p-mobile);
+  font-weight: 500;
+  line-height: 1.625rem;
+  color: var(--clr__text-2);
+  text-align: center;
+}
+
+.footer__title {
+  font-size: var(--fs__h2-mobile);
+  font-weight: 900;
+  line-height: 2.25rem;
+  color: var(--clr__bg);
+  text-align: center;
+}
+
+.footer__paragraph {
+  font-size: var(--fs__p-mobile);
+  font-weight: 500;
+  line-height: 1.625rem;
+  color: var(--clr__bg);
+  text-align: center;
+  margin: 1.5rem 0 2rem;
+
+}
+
+
+//BUTTONS
+
+.button{
+font-size: var(--fs__button);
+font-weight: 900;
+color: var(--clr__bg);
+}

@@ -1,0 +1,48 @@
+// variables
+:root {
+  // Colors
+  --clr__btn-1: hsl(192, 37%, 48%);
+  --clr__btn-2: hsl(268, 34%, 53%);
+  --clr__btn-1--hover: hsl(192, 37%, 70%);
+  --clr__btn-2--hover: hsl(268, 100%, 86%);
+  --clr__text-1: hsl(240, 21%, 20%);
+  --clr__text-2: hsl(240, 10%, 57%);
+  --clr__text-3: hsl(192, 90%, 77%);
+  --clr__bg: hsl(0, 0%, 98%);
+
+  //Padding buttons
+  --padding-1: 1rem 2.5rem;
+  --padding-2: 1rem 1.8125rem;
+  
+  // Fonts sizes
+  //titles desktop
+  --fs__h1-desktop: 4rem; //64px
+  --fs__h2-desktop: 2.5rem; //40px
+
+  //titles tablet
+  --fs__h1-tablet: 3rem; //48px
+  --fs__h2-tablet: 2.5rem; //40px
+
+  //titles mobile
+  --fs__h1-mobile: 2.5rem; //40px
+  --fs__h2-mobile: 2rem; //32px
+
+  //paragraph desktop
+  //Desktop
+  --fs__p-desktop: 1.125rem; //18px
+
+  //Tablet
+  --fs__p-tablet: 1rem; //16px
+
+  //Mobile
+  --fs__p-mobile: 1rem; //16px
+
+  //paragraph footer general
+  --fs__p-footer: 1.125rem;
+
+  // Text UPPERCASE!
+  --fs__span: 1rem;
+
+  //BUTTONS
+  --fs__button: 1rem;
+}
