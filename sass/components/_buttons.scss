@@ -1,14 +1,33 @@
+.intro__buttons {
+  margin: 0 auto;
+}
+
 .button__download {
   max-width: 12.0625rem;
   background-color: var(--clr__btn-1);
   padding: var(--padding-1);
   border-radius: 2rem;
   border: none;
-  margin: 2rem 0 1rem;
 
   &::after {
     content: " v1.3";
     color: var(--clr__text-3);
+  }
+
+  &:hover{
+    background-color: var(--clr__btn-1--hover);
+  }
+}
+
+.button__question {
+  max-width: 8.6875rem;
+  background-color: var(--clr__btn-2);
+  padding: var(--padding-2);
+  border-radius: 2rem;
+  border: none;
+  
+  &:hover{
+    background-color: var(--clr__btn-2--hover);
   }
 }
 
@@ -24,11 +43,8 @@
     opacity: 0.6;
     font-weight: 700;
   }
-}
-.button__question {
-  max-width: 8.6875rem;
-  background-color: var(--clr__btn-2);
-  padding: var(--padding-2);
-  border-radius: 2rem;
-  border: none;
+
+  &:hover{
+    background-color: var(--clr__btn-2--hover);
+  }
 }

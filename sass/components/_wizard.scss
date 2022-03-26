@@ -1,9 +1,8 @@
 .box{
-    position: relative;
 
     .v-line{
         background-color: var(--clr__text-2);
-        width: 0.0625rem;
+        width: .5px;
         height: 5.25rem;
         margin: 0 auto;
     }
@@ -28,7 +27,7 @@
     margin: 4rem 0;
 }
 .box:last-child{
-    transform: translateY(1.5rem);
+    transform: translateY(1.8rem);
     margin: 4rem 0 0;
 
 }

@@ -12,15 +12,36 @@ html {
   line-height: 2.75rem;
   color: var(--clr__text-1);
   text-align: center;
-  margin: 0 auto;
+  margin: 0 auto 1.5rem;
+
+  @media screen and (min-width: 47em) {
+    font-size: var(--fs__h1-tablet);
+  }
+
+  @media screen and (min-width: 60em) {
+    font-size: var(--fs__h1-desktop);
+    line-height: 4rem;
+  }
 }
 
 .intro__paragraph {
+  width: 90%;
   font-size: var(--fs__p-mobile);
   font-weight: 500;
   line-height: 1.625rem;
   color: var(--clr__text-2);
   text-align: center;
+  margin: 0 auto;
+
+  @media screen and (min-width: 47em) {
+    font-size: var(--fs__p-tablet);
+  }
+  
+  @media screen and (min-width: 60em) {
+    width: 100%;
+    font-size: var(--fs__p-desktop);
+    line-height: 1.625rem;
+  }
 }
 
 .main__concept-p {
@@ -39,6 +60,15 @@ html {
   color: var(--clr__text-1);
   text-align: center;
   margin: 1.5rem 0 2rem;
+
+  @media screen and (min-width: 47em) {
+    font-size: var(--fs__h2-tablet);
+    line-height: 2.75rem;
+  }
+
+  @media screen and (min-width: 60em) {
+    font-size: var(--fs__h2-desktop);
+  }
 }
 
 .main__concept-paragraph {
@@ -47,6 +77,10 @@ html {
   line-height: 1.625rem;
   color: var(--clr__text-2);
   text-align: center;
+
+  @media screen and (min-width: 60em) {
+    font-size: var(--fs__p-desktop);
+  }
 }
 
 .footer__title {
@@ -55,23 +89,38 @@ html {
   line-height: 2.25rem;
   color: var(--clr__bg);
   text-align: center;
+
+  @media screen and (min-width: 47em) {
+    font-size: var(--fs__h2-tablet);
+  }
+
+  @media screen and (min-width: 60em) {
+    text-align: left;
+    font-size: var(--fs__h2-desktop);
+    line-height: 2.75rem;
+  }
 }
 
 .footer__paragraph {
-  font-size: var(--fs__p-mobile);
+  font-size: var(--fs__p-footer);
   font-weight: 500;
   line-height: 1.625rem;
   color: var(--clr__bg);
   text-align: center;
   margin: 1.5rem 0 2rem;
 
+  @media screen and (min-width: 60em) {
+    text-align: left;
+    margin: 0 5.75rem 0 7.8125rem;
+  }
 }
-
 
 //BUTTONS
 
-.button{
-font-size: var(--fs__button);
-font-weight: 900;
-color: var(--clr__bg);
+.button {
+  font-size: var(--fs__button);
+  font-weight: 900;
+  color: var(--clr__bg);
+  cursor: pointer;
+  transition: 0.2ms all ease-in-out;
 }
