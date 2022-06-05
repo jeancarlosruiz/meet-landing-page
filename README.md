@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/Jean-FrontEnd/meet-landing-page](https://github.com/Jean-FrontEnd/meet-landing-page)
-- Live Site URL: [https://jean-frontend.github.io/meet-landing-page/](https://jean-frontend.github.io/meet-landing-page/)
+- Solution URL: [https://github.com/Jean-FrontEnd/meet-landing-page](https://github.com/jeancarlosruiz/meet-landing-page)
+- Live Site URL: [https://jean-frontend.github.io/meet-landing-page/](https://jeancarlosruiz.github.io/meet-landing-page/)
 
 ## My process
 
@@ -46,6 +46,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [Jean Ruiz](https://github.com/Jean-FrontEnd)
-- Frontend Mentor - [@Jean-FrontEnd](https://www.frontendmentor.io/profile/Jean-FrontEnd)
+- Website - [Jean Ruiz](https://github.com/jeancarlosruiz)
+- Frontend Mentor - [@Jean-FrontEnd](https://www.frontendmentor.io/profile/jeancarlosruiz)
 - Twitter - [@jeanruizv10](https://twitter.com/JeanRuizV10)
